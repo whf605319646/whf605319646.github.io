@@ -170,11 +170,11 @@ module.exports = {
       {
         choosen: 'gitalk', 
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'vuepress-theme-vdoing', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          clientID: 'aa5095a3481e214d7bf6',
+          clientSecret: '539a7782e228c04b38303e570dac49d830deb99f',
+          repo: 'whf605319646.github.io', // GitHub 仓库
+          owner: 'whf605319646', // GitHub仓库所有者
+          admin: ['whf605319646'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: "<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>", //  页面的唯一标识,长度不能超过50
