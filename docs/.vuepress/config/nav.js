@@ -47,7 +47,6 @@ module.exports = [
       {text: '友情链接', link: '/friends/'},
     ]
   },
-  {text: '关于', link: '/about/'},
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
@@ -65,5 +64,13 @@ module.exports = [
       {text: '标签', link: '/tags/'},
       {text: '归档', link: '/archives/'},
     ]
+  },
+  {
+    text: '复盘', 
+    link: '/review/'
+  },
+  {
+    text: '关于', 
+    link: '/about/'
   }
 ]
