@@ -1,4 +1,10 @@
 // import vue from 'vue/dist/vue.esm.browser'
+import Vue from 'vue'
+import DiyCodeBlock from "../../mytheme/global-components/DiyCodeBlock.vue"
+import DiyCodeGroup from "../../mytheme/global-components/DiyCodeGroup.vue"
+// Register the Vue global component
+Vue.component("diy-code-block", DiyCodeBlock)
+Vue.component("diy-code-group", DiyCodeGroup)
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
   options, // 附加到根实例的一些选项
